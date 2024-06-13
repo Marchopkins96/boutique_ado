@@ -27,7 +27,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-marchopkins-boutiqueado-7zvo87ltlpl.ws-eu114.gitpod.io', '8000-marchopkins-boutiqueado-qsywsyuu5vb.ws.codeinstitute-ide.net',
-'https://boutique-ado-mh-9d36a82e093c.herokuapp.com/', 'localhost']
+'boutique-ado-mh-9d36a82e093c.herokuapp.com', 'localhost']
 
 
 # Application definition
