@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 import dj_database_url
 
+if os.path.exists('env.py'):
+    import env
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,6 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
+
 
 ALLOWED_HOSTS = ['8000-marchopkins-boutiqueado-7zvo87ltlpl.ws-eu114.gitpod.io', '8000-marchopkins-boutiqueado-qsywsyuu5vb.ws.codeinstitute-ide.net',
 'boutique-ado-mh-9d36a82e093c.herokuapp.com', 'localhost']
